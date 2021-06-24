@@ -23,9 +23,9 @@
           }
       }
 
-      AirisdkEvent.Instance.InitEvent += OnInitRespone;
+      YoStarSDKEvent.Instance.InitEvent += OnInitRespone;
 
-      AiriSDK.Instance.Init();
+      YoStarSDK.Instance.Init("https://audit-sdk-api.yostar.cn");
   ```
 
     InitRet 属性名|参数说明|备注

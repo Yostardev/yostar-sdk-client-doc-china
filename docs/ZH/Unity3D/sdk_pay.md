@@ -3,7 +3,7 @@
 
 - #### 函数定义
     ```cs
-    public ResultCode Pay(string productId)
+    public ResultCode Pay(int productId)
     ```
 
     入参名称|入参说明|备注
@@ -18,17 +18,14 @@
        if (ret.R_CODE == ResultCode.OK){
 
             // pay success
-        }else if(ret.R_CODE == ResultCode.PAY_HOLDON){
-
-            //订单处理中，建议对游戏服务器轮询支付结果；
         }else{
 
            // pay fail
         }
     }
 
-    AirisdkEvent.Instance.PayEvent += OnPayRespone;//Important!!!
-    AiriSDK.Instance.Pay(1);
+    YoStarSDKEvent.Instance.PayEvent += OnPayRespone;
+    YoStarSDK.Instance.Pay(2);
     ```
 
     PayRet 属性名|参数说明|备注
