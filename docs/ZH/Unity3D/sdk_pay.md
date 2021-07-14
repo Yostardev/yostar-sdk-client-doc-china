@@ -28,11 +28,11 @@
     YoStarSDK.Instance.Pay(2);
     ```
 
-    PayRet 属性名|参数说明|备注
-    ---|:--:|:--|
-    R_CODE|状态码,枚举值|0:成功<br/> 其他值可查看错误表含义|
-    R_MSG| 错误信息,辅助排查问题|无 |
-    LOGIN_UID| 用户ID|无 |
-    ORDER_ID| 悠星订单号|无 |
-    PRODUCT_ID| 购买的产品ID|无 |
+    PayRet 属性名|类型|参数说明|备注
+    ---|:--:|:--|:--|
+    R_CODE|ResultCode(枚举)|状态码,枚举值|0:成功<br/> 其他值可查看错误表含义|
+    R_MSG|string| 错误信息,辅助排查问题|无 |
+    LOGIN_UID|int| 用户ID|无 |
+    ORDER_ID|string| 悠星订单号|无 |
+    PRODUCT_ID|string| 购买的产品ID|无 |
 

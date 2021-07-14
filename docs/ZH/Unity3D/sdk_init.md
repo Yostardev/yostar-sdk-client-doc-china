@@ -28,7 +28,7 @@
       YoStarSDK.Instance.Init("https://audit-sdk-api.yostar.cn");
   ```
 
-    InitRet 属性名|参数说明|备注
-    ---|:--:|:--|
-    R_CODE|状态码,枚举值|0:成功<br/> 其他值可查看第7章错误码表含义|
-    R_MSG| 错误信息,辅助排查问题|无 |
+    InitRet 属性名|类型|参数说明|备注
+    ---|:--:|:--|:--|
+    R_CODE|ResultCode(枚举)|状态码,枚举值|0:成功<br/> 其他值可查看第7章错误码表含义|
+    R_MSG|string| 错误信息,辅助排查问题|无 |

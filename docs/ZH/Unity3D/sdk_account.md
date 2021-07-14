@@ -25,14 +25,14 @@
     YoStarSDK.Instance.Login();
     ```
 
-    | LoginRet    | 参数说明 | 备注 |
-    | -------------- | ------ | ------ |
+    | LoginRet    |类型| 参数说明 | 备注 |
+    | -------------- | ------ | ------ | ------ |
     | R_CODE   | ResultCode(枚举) |错误码 |
-    | R_MSG     | 错误信息,辅助排查问题 | 无 |
-    | LOGIN_UID   | SDK登陆成功之后返回UID | 无 |
-    | MOBILE_PHONE | 绑定的手机号 | 无 |
-    | ID_CARD | 绑定的身份证号 | 无 |
-    | SURPLUS_DURATION | 防沉迷剩余时间 | 单位/秒 |
+    | R_MSG     |string| 错误信息,辅助排查问题 | 无 |
+    | LOGIN_UID   |int| SDK登陆成功之后返回UID | 无 |
+    | MOBILE_PHONE |string| 绑定的手机号 | 无 |
+    | ID_CARD |string| 绑定的身份证号 | 无 |
+    | SURPLUS_DURATION |int| 防沉迷剩余时间 | 单位/秒 |
 
 
 

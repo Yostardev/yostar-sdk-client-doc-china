@@ -6,9 +6,9 @@
     public static void pay(Activity activity, String productId)
     ```
 
-    入参名称|入参说明|备注
-    ---|:--:|:--|
-    productId|需要支付的产品Id|无|
+    入参名称|类型|入参说明|备注
+    ---|:--:|:--|:--|
+    productId|string|需要支付的产品Id|无|
 
 - #### 调用示例
 
@@ -20,8 +20,7 @@
     {"LOGIN_UID":123,"PRODUCT_ID":2,"ORDER_ID":1250504353048453120,"METHOD":"OnPayNotify","R_MSG":" success ","R_CODE":0}
     ```
   
-    resultMap 属性名|参数说明|备注
-    ---|:--:|:--|
-    LOGIN_UID| 用户ID|无 |
-    ORDER_ID| 悠星订单号|无 |
-    PRODUCT_ID| 购买的产品ID|无 |
+    resultMap 属性名|类型|参数说明|备注
+    ---|:--:|:--|:--|
+    ORDER_ID|string| 悠星订单号|无 |
+    PRODUCT_ID|string| 购买的产品ID|无 |

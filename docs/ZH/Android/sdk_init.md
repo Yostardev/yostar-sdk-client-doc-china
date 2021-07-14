@@ -11,9 +11,9 @@
   public static void init(Activity activity, String sdkUrl)
   ```
 
-    入参名称|入参说明|备注
-    ---|:--:|:--|
-    sdkUrl|SDK服务器地址|无|
+    入参名称|类型|入参说明|备注
+    ---|:--:|:--|:--|
+    sdkUrl|string|SDK服务器地址|无|
 
 <br/>
 

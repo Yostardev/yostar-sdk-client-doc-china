@@ -5,9 +5,9 @@
 
 
 ### SDK接入配置参数
-参数名称|参数说明|备注
----|:--:|:--:|
-Test Url|AiriSDK 测试服地址|必须|
-Release Url|AiriSDK 正式服地址|必须|
-Package Name |应用包名|必须|
+参数名称|类型|参数说明|备注
+---|:--:|:--:|:--:|
+Test Url|string|AiriSDK 测试服地址|必须|
+Release Url|string|AiriSDK 正式服地址|必须|
+Package Name |string|应用包名|必须|
 
