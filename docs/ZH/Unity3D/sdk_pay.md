@@ -32,7 +32,6 @@
     ---|:--:|:--|:--|
     R_CODE|ResultCode(枚举)|状态码,枚举值|0:成功<br/> 其他值可查看错误表含义|
     R_MSG|string| 错误信息,辅助排查问题|无 |
-    LOGIN_UID|int| 用户ID|无 |
     ORDER_ID|string| 悠星订单号|无 |
     PRODUCT_ID|string| 购买的产品ID|无 |
 
