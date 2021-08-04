@@ -22,5 +22,5 @@
   
     resultMap 属性名|类型|参数说明|备注
     ---|:--:|:--|:--|
-    ORDER_ID|string| 悠星订单号|无 |
-    PRODUCT_ID|string| 购买的产品ID|无 |
+    ORDER_ID|int| 悠星订单号|无 |
+    PRODUCT_ID|int| 购买的产品ID|无 |
