@@ -18,15 +18,13 @@
 - #### 回调示例
 
     ``` java
-    {"LOGIN_PLATFORM":0,"METHOD":"OnLoginNotify","LOGIN_UID":"40119188699623424","R_MSG":" success ","R_CODE":0,"MOBILE_PHONE": "","ID_CARD": "","SURPLUS_DURATION":0}
+    {"LOGIN_PLATFORM":0,"METHOD":"OnLoginNotify","LOGIN_UID":"40119188699623424","R_MSG":" success ","R_CODE":0,"MOBILE_PHONE": ""}
     ```
 
     | resultMap属性 |类型| 参数说明 | 备注 |
     | ---- | ---- | ------ | ------ |
     | LOGIN_UID | int |账号ID | 无 |
     | MOBILE_PHONE | string | 绑定的手机号 | 无 |
-    | ID_CARD | string |绑定的身份证号 | 无 |
-    | SURPLUS_DURATION | int | 防沉迷剩余时间 | 单位/秒 |
 
 
 

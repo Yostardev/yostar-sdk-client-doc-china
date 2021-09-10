@@ -31,8 +31,6 @@
     | R_MSG     |string| 错误信息,辅助排查问题 | 无 |
     | LOGIN_UID   |int| SDK登陆成功之后返回UID | 无 |
     | MOBILE_PHONE |string| 绑定的手机号 | 无 |
-    | ID_CARD |string| 绑定的身份证号 | 无 |
-    | SURPLUS_DURATION |int| 防沉迷剩余时间 | 单位/秒 |
 
 
 
