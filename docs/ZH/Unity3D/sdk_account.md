@@ -20,6 +20,7 @@
          // login fail,do not anything
       }
     }
+
     YoStarSDKEvent.Instance.LoginEvent += OnLoginRespone;
 
     private void OnLogoutResponse(LogoutRet ret){
@@ -28,10 +29,8 @@
     }
     YoStarSDKEvent.Instance.logoutEvent += OnLogoutResponse;
 
-        YoStarSDK.Instance.Login();
-
+    YoStarSDK.Instance.Login();
     ```
-
 
     | LoginRet    |类型| 参数说明 | 备注 |
     | -------------- | ------ | ------ | ------ |
