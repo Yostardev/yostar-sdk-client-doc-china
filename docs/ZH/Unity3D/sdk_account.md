@@ -24,13 +24,14 @@
 
     private void OnLogoutResponse(LogoutRet ret){
 
-        // logout success,game continue
+        // logout success
     }
     YoStarSDKEvent.Instance.logoutEvent += OnLogoutResponse;
 
+        YoStarSDK.Instance.Login();
 
-    YoStarSDK.Instance.Login();
     ```
+
 
     | LoginRet    |类型| 参数说明 | 备注 |
     | -------------- | ------ | ------ | ------ |
