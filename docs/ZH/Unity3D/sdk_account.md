@@ -20,8 +20,15 @@
          // login fail,do not anything
       }
     }
-
     YoStarSDKEvent.Instance.LoginEvent += OnLoginRespone;
+
+    private void OnLogoutResponse(LogoutRet ret){
+
+        // logout success,game continue
+    }
+    YoStarSDKEvent.Instance.logoutEvent += OnLogoutResponse;
+
+
     YoStarSDK.Instance.Login();
     ```
 
